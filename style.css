@@ -1,0 +1,39 @@
+@import url(@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Fuzzy+Bubbles&display=swap");
+
+
+:root{
+   --dark-purple:#7C3AED;
+   --purple: #EDE9FE;
+}
+body{
+
+    background-color: var(--dark-purple);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    border: 3px solid white;
+    background-color: var(--dark-purple);
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    color: white;
+}
+input, label{
+    display: block;
+    
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+#check-number{
+    border: 3px solid white;
+    background-color: var(--purple);
+    margin: 2rem auto;
+    display: block;
+}
